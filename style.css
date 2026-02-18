@@ -1,0 +1,95 @@
+body {
+    color: white;
+    font-family: 'Agency FB', sans-serif;
+    font-weight: bold;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.title-container {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    top: 0;
+    right: 0;
+    text-align: right;
+    padding: 20px;
+    font-size: 36px;
+}
+.logo-container {
+    display: flex;
+    position: absolute;
+    top: 0;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.timeline-container {
+    display: flex;
+    position: absolute;
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    text-align: right;
+    line-height: 2;
+    font-size: 26px;
+    font-weight: 100;
+}
+
+.timeline-container td.time {
+    padding-right: 1.5em;
+    text-align: left;
+}
+
+.missiontime-container {
+    display: flex;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    flex-direction: column;
+    align-items: right;
+    padding: 20px;
+    font-weight: 100;
+    text-align: right;
+}
+
+.missiontime-container .title {
+    font-size: 30px;
+    text-transform: uppercase;
+}
+
+.missiontime-container .clock {
+    font-size: 70px;
+    font-weight: bold;
+}
+
+.stats-container {
+    display: flex;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    flex-direction: column;
+    align-items: left;
+    padding: 20px;
+    line-height: 1;
+}
+
+.stats-container .title {
+    font-size: 30px;
+    text-transform: uppercase;
+    font-weight: 100;
+    padding-right: 1.5em;
+}
+
+.stats-container .value {
+    font-size: 36px;
+    font-weight: bold;
+}
